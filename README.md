@@ -1,3 +1,9 @@
+
+# Note
+This fork allows to solve problems related to the attribute containing a namespace.
+In the basic library an attribute "xmlns:xlink" will be replaced by "xlink" if you use a "setAttribute" or a "toString".
+This problem is already known to the library (https://github.com/taoqf/node-html-parser/issues/42).
+
 # Fast HTML Parser [![NPM version](https://badge.fury.io/js/node-html-parser.png)](http://badge.fury.io/js/node-html-parser) [![Build Status](https://travis-ci.org/taoqf/node-html-parser.svg?branch=master)](https://travis-ci.org/taoqf/node-html-parser)
 
 Fast HTML Parser is a _very fast_ HTML parser. Which will generate a simplified
